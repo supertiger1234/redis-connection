@@ -71,6 +71,6 @@ function report_error (err) {
   return err;
 }
 
-process.on('uncaughtException', report_error);
+//process.on('uncaughtException', report_error);
 
 module.exports.report_error = report_error;
